@@ -159,7 +159,7 @@
             font-weight: 700;
             white-space: nowrap;
             box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-            z-index: 11; /* Asegura que esté por encima */
+            z-index: 11;
         }
 
         /* AJUSTE: Ocultar badge SELECCIONADO en el plan recomendado para no chocar con la cinta */
@@ -474,11 +474,11 @@
             <section class="section">
                 <h2>✨ Características Destacadas</h2>
                 <div class="features-grid">
-                    <div class="feature-card"><h4>🧾 Facturación Completa</h4><p>Emisión de facturas, presupuestos, pedidos, albaranes y notas de crédito con numeración automática y plantillas personalizables.</p></div>
-                    <div class="feature-card"><h4> Contabilidad Integrada</h4><p>Generación automática de asientos contables, balances, libros de IVA y reportes financieros en tiempo real.</p></div>
-                    <div class="feature-card"><h4>📦 Gestión de Inventario</h4><p>Control de stock en múltiples almacenes, alertas de bajo inventario, códigos de barras y trazabilidad de productos.</p></div>
+                    <div class="feature-card"><h4> Facturación Completa</h4><p>Emisión de facturas, presupuestos, pedidos, albaranes y notas de crédito con numeración automática y plantillas personalizables.</p></div>
+                    <div class="feature-card"><h4>📊 Contabilidad Integrada</h4><p>Generación automática de asientos contables, balances, libros de IVA y reportes financieros en tiempo real.</p></div>
+                    <div class="feature-card"><h4> Gestión de Inventario</h4><p>Control de stock en múltiples almacenes, alertas de bajo inventario, códigos de barras y trazabilidad de productos.</p></div>
                     <div class="feature-card"><h4>🛒 TPV Táctil</h4><p>Punto de venta optimizado para pantallas táctiles, ideal para comercios, restaurantes y atención rápida al cliente.</p></div>
-                    <div class="feature-card"><h4>🔌 +170 Plugins Gratuitos</h4><p>Amplía funcionalidades con módulos para facturación electrónica, pasarelas de pago, CRM, proyectos y más.</p></div>
+                    <div class="feature-card"><h4> +170 Plugins Gratuitos</h4><p>Amplía funcionalidades con módulos para facturación electrónica, pasarelas de pago, CRM, proyectos y más.</p></div>
                     <div class="feature-card"><h4>🌐 Integraciones</h4><p>Conecta con WooCommerce, PrestaShop, Shopify, PayPal, Stripe y otras plataformas de e-commerce.</p></div>
                 </div>
             </section>
@@ -490,7 +490,7 @@
                 <div class="features-grid e-invoice-grid">
                     <div class="feature-card"><h4>📄 e-NCF & Factura Electrónica</h4><p>Generación y control de comprobantes fiscales electrónicos (e-NCF) con secuencia, validación y formato DGII.</p></div>
                     <div class="feature-card"><h4>📊 Reportes 606, 607, 608</h4><p>Exportación automática de los libros de compras, ventas y ajustes requeridos mensualmente por la DGII.</p></div>
-                    <div class="feature-card"><h4> Cumplimiento Normativo</h4><p>Actualizaciones constantes para adaptarse a nuevas disposiciones fiscales, formatos XML y protocolos de seguridad.</p></div>
+                    <div class="feature-card"><h4>🔐 Cumplimiento Normativo</h4><p>Actualizaciones constantes para adaptarse a nuevas disposiciones fiscales, formatos XML y protocolos de seguridad.</p></div>
                 </div>
                 <div style="text-align: center;">
                     <button class="cta-button" onclick="openModal('Información Facturación Electrónica RD')">
@@ -513,15 +513,15 @@
                 </ul>
             </div>
 
-            <!-- NOTA ITBIS -->
+            <!-- NOTA ITBIS ACTUALIZADA -->
             <div class="tax-note">
-                💡 <strong>Nota importante:</strong> Todos nuestros precios están <strong>exentos de ITBIS</strong>.
+                💡 <strong>Nota importante:</strong> Los precios <strong>no incluyen ITBIS</strong>. Si lo necesitas, puedes solicitar la facturación con ITBIS al momento de pagar.
             </div>
             
             <section class="section" style="background: white; border-left: none; box-shadow: none;">
                 <h2>📦 Elige tu Plan Ideal</h2>
                 <p style="margin-bottom: 1rem; text-align: center;">
-                    <strong>Todos los planes incluyen la implementación profesional por RD$ 10,000</strong> (exento de ITBIS). 
+                    <strong>Todos los planes incluyen la implementación profesional por RD$ 10,000</strong> (sin ITBIS). 
                     Solo varía la infraestructura de alojamiento:
                 </p>
                 
@@ -599,7 +599,7 @@
             <div class="note">
                 <strong>ℹ️ Información adicional:</strong><br>
                 • Precios en pesos dominicanos (RD$) • Válidos por 30 días<br>
-                • <strong>Todos los precios están exentos de ITBIS</strong><br>
+                • <strong>Precios no incluyen ITBIS (Disponible bajo solicitud)</strong><br>
                 • FacturaScripts es software libre bajo licencia LGPLv3<br>
                 • No hay costos ocultos, licencias anuales ni renovaciones obligatorias<br>
                 • Posibilidad de personalizar planes según necesidades específicas
@@ -734,7 +734,7 @@
                 message += `📦 *Interés:* ${currentPlan}%0A`;
             }
             
-            message += `💰 *Nota:* Precios exentos de ITBIS%0A%0A`;
+            message += `💰 *Nota:* Precios no incluyen ITBIS%0A%0A`;
             message += `Quedo atento a los siguientes pasos. ¡Gracias!`;
             
             window.open(`https://wa.me/18299369811?text=${message}`, '_blank');
